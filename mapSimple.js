@@ -9,7 +9,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
 
 // Load CSV data
 // Load CSV data
-Papa.parse('all_photos.csv', {
+Papa.parse('all-photos.csv', {
   download: true,
   header: true,
   complete: function(results) {
